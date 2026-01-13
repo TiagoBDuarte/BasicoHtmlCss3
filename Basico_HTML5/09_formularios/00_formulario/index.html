@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <h1>Formulário Aqui</h1>
+            <form action="">
+                <!--LEGENDA PARA O NOME-->
+                <label for="campoNome">Nome:</label>
+                <!--CAMPO DO TYPE TEXT-->
+                <input 
+                    id="campoNome"
+                    type="text"
+                    placeholder="Digite seu nome aqui"
+                    required>
+                <br>
+                <!--LEGENDA PARA SENHA-->
+                <label for="campoSenha">Senha</label>
+                <!--CAMPO DO TYPE PASSWORD-->
+                <input
+                    id="campoSenha"
+                    type="password"
+                    placeholder="Digite sua Senha"
+                    required>
+                <br>
+                <!--LEGENDA PARA EMAIL-->
+                <label for="campoEmail">E-mail</label>
+                <!--CAMPO DO TYPE EMAIL-->
+                <input
+                    id="campoEmail"
+                    type="email"
+                    placeholder="Digite seu email"
+                    required>
+                <br>
+                <br>
+                <!--ENVIO DO FORMULÁRIO-->
+                <input id="enviar" type="submit" value="Enviar Formulário">
+            </form>
+    </section>
+    <hr>
+    <section>
+        <h1>Campus:Rádio</h1>
+            <h2>Animais de Estimação</h2>
+                
+                <input id="dog" type="radio" name="animal">  
+                <label for="dog">Cachorro</label>                  
+                
+                <br>
+                <input id="cat" type="radio" name="animal">  
+                <label for="cat">Gato</label>                 
+                
+                <br>
+                <input id="bird" type="radio" name="animal">  
+                <label for="bird">Ave</label> 
+                <br>                
+                <input type="submit" value="Enviar Formulário">    
+    </section>
+    <hr>
+    <section>
+        <h1>Campus:Checkbox</h1>
+            <h2>O que você tem em casa?</h2>
+                <input id="item1" type="checkbox" value="TV">
+                <label for="item1">TV</label>
+                <br>
+                <input id="item2" type="checkbox" value="Geladeira">
+                <label for="item2">Geladeira</label>
+                <br>
+                <input id="item3" type="checkbox" value="Computador">
+                <label for="item3">Computador</label>
+                <br>
+                <input type="submit" value="Enviar Formulário">  
+                
+              
+    </section>
+    <hr>
+    <section>
+        <h1>Campus:Select</h1>
+            <h2>Escolha uma cor</h2>
+            <select>
+                <option value="">
+                    Selecione uma cor
+                </option>
+                <br>
+                <option value="Vermelho">
+                    Vermelho
+                </option>
+                <br>
+                <option value="Amarelo">
+                    Amarelo
+                </option>
+                <br>
+                <option value="Azul">
+                    Azul
+                </option>
+                <br>
+            </select>
+               
+                
+              
+    </section>
+    <hr>
+    <section>
+        <h1>Digite sua mensagem</h1>
+        <textarea placeholder="Deixe sua mensagem"  rows="15" cols="30"></textarea>
+    </section>
+    <hr>
+    <section>
+        <h1>Button</h1>
+        <button>Clique Aqui</button>
+    </section>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+
+    <a href="../index.html">Voltar para principal</a>
+</body>
+</html>
