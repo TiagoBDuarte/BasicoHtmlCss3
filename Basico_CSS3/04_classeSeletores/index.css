@@ -1,0 +1,17 @@
+*{
+    padding: 20px;
+}
+
+h1{
+    font-size: large;
+}
+
+.principal{
+    background-color: blue;
+    text-align: center;
+}
+
+#secundario{
+    background-color: bisque;
+     text-align: center;
+}
